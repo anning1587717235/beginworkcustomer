@@ -1,13 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="beginwork:war exploded">
-    <output-path>$PROJECT_DIR$/../beginwork/target/beginwork</output-path>
+    <output-path>$PROJECT_DIR$/target/beginwork</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="beginwork" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0" />
           <element id="library" level="project" name="Maven: org.apache.maven.plugins:maven-resources-plugin:2.5" />
           <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:2.0.6" />
           <element id="library" level="project" name="Maven: org.apache.maven:maven-project:2.0.6" />
@@ -59,7 +58,6 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.6" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
-          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.30" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.10-final" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi:3.10-FINAL" />
@@ -74,6 +72,10 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.32" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:2.4" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+          <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
           <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" />
@@ -84,6 +86,8 @@
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: commons-net:commons-net:2.2" />
+          <element id="library" level="project" name="Maven: net.coobird:thumbnailator:0.4.8" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-security:2.7.8" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-core:2.7.8" />
           <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.13" />
@@ -120,11 +124,9 @@
           <element id="library" level="project" name="Maven: org.apache.maven:maven-toolchain:2.0.9" />
           <element id="library" level="project" name="Maven: org.apache.maven.plugin-tools:maven-plugin-annotations:3.2" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.2" />
-          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.2" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.2.2" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-ehcache:1.2.2" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-ehcache:1.0.0" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
@@ -145,7 +147,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/../beginwork/target/beginwork/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/beginwork/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="beginwork/web/Web" />
     </root>

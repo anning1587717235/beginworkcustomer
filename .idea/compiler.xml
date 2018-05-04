@@ -6,12 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="beginwork" />
         <module name="beginworkcustomer" />
-      </profile>
-      <profile name="Annotation profile for beginwork Maven Webapp" enabled="true">
-        <sourceOutputDir name="../beginwork/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../beginwork/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
