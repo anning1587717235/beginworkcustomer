@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 	<head>
@@ -560,8 +562,8 @@
 		<!--引导 -->
 		<div class="navCir">
 			<li><a href="home2.html"><i class="am-icon-home "></i>首页</a></li>
-			<li  class="active"><a href="sort.html"><i class="am-icon-list"></i>分类</a></li>
-			<li><a href="shopcart.html"><i class="am-icon-shopping-basket"></i>购物车</a></li>	
+			<li  class="active"><a href="sort.jsp"><i class="am-icon-list"></i>分类</a></li>
+			<li><a href="shopcart.jsp"><i class="am-icon-shopping-basket"></i>购物车</a></li>
 			<li><a href="../person/index.html"><i class="am-icon-user"></i>我的</a></li>					
 		</div>
 	</body>

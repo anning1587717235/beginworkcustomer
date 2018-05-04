@@ -1,5 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -70,7 +72,7 @@
                       <!--轮播 -->
 						<div class="am-slider am-slider-default scoll" data-am-flexslider id="demo-slider-0">
 							<ul class="am-slides">
-								<li class="banner1"><a href="introduction.html"><img src="../images/ad1.jpg" /></a></li>
+								<li class="banner1"><a href="introduction.jsp"><img src="../images/ad1.jpg" /></a></li>
 								<li class="banner2"><a><img src="../images/ad2.jpg" /></a></li>
 								<li class="banner3"><a><img src="../images/ad3.jpg" /></a></li>
 								<li class="banner4"><a><img src="../images/ad4.jpg" /></a></li>
@@ -656,7 +658,7 @@
 					<!--小导航 -->
 					<div class="am-g am-g-fixed smallnav">
 						<div class="am-u-sm-3">
-							<a href="sort.html"><img src="../images/navsmall.jpg" />
+							<a href="sort.jsp"><img src="../images/navsmall.jpg" />
 								<div class="title">商品分类</div>
 							</a>
 						</div>
@@ -705,8 +707,8 @@
 								</em>
 							</div>
 							<div class="member-logout">
-								<a class="am-btn-warning btn" href="login.html">登录</a>
-								<a class="am-btn-warning btn" href="register.html">注册</a>
+								<a class="am-btn-warning btn" href="login.jsp">登录</a>
+								<a class="am-btn-warning btn" href="register.jsp">注册</a>
 							</div>
 							<div class="member-login">
 								<a href="#"><strong>0</strong>待收货</a>
@@ -1239,9 +1241,9 @@
 		<!--引导 -->
 
 		<div class="navCir">
-			<li class="active"><a href="home3.html"><i class="am-icon-home "></i>首页</a></li>
-			<li><a href="sort.html"><i class="am-icon-list"></i>分类</a></li>
-			<li><a href="shopcart.html"><i class="am-icon-shopping-basket"></i>购物车</a></li>	
+			<li class="active"><a href="home3.jsp"><i class="am-icon-home "></i>首页</a></li>
+			<li><a href="sort.jsp"><i class="am-icon-list"></i>分类</a></li>
+			<li><a href="shopcart.jsp"><i class="am-icon-shopping-basket"></i>购物车</a></li>
 			<li><a href="../person/index.html"><i class="am-icon-user"></i>我的</a></li>					
 		</div>
 		<!--菜单 -->
